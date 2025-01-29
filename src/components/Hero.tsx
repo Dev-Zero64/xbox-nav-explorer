@@ -24,7 +24,7 @@ const Hero = () => {
           {/* Xbox Series X */}
           <div className="text-center space-y-6">
             <img
-              src="https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png"
+              src="/lovable-uploads/ac692133-ca10-48ca-84dc-37a3e7da930d.png"
               alt="Xbox Series X"
               className="mx-auto max-w-[400px] w-full h-[300px] object-contain"
             />
