@@ -26,7 +26,7 @@ const Hero = () => {
             <img
               src="https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png"
               alt="Xbox Series X"
-              className="mx-auto max-w-[400px] w-full"
+              className="mx-auto max-w-[400px] w-full h-[300px] object-contain"
             />
             <h2 className="text-3xl font-bold">XBOX SERIES X</h2>
             <p className="text-xl text-gray-300">
@@ -45,7 +45,7 @@ const Hero = () => {
             <img
               src="/lovable-uploads/8d5795dd-5212-4910-8366-ebcaed8c91a5.png"
               alt="Xbox Series S"
-              className="mx-auto max-w-[400px] w-full object-contain"
+              className="mx-auto max-w-[400px] w-full h-[300px] object-contain"
             />
             <h2 className="text-3xl font-bold">XBOX SERIES S</h2>
             <p className="text-xl text-gray-300">
