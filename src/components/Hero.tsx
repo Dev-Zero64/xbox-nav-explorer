@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="bg-xbox-black text-white min-h-screen pt-20">
+    <div className="bg-gradient-to-b from-xbox-black via-[#0a0a0a] to-[#0f1f0f] text-white min-h-screen pt-20">
       <div className="max-w-7xl mx-auto px-6 py-16">
         {/* Title */}
         <h1 className="text-6xl md:text-8xl font-bold text-center mb-4">
