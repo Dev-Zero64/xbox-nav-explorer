@@ -1,6 +1,6 @@
 # Xbox Nav Explorer
 
-Uma aplicação web moderna construída com React + TypeScript que replica a experiência de navegação do site do Xbox.
+Uma pagina web moderna construída com React + TypeScript que replica a experiência de navegação do site do Xbox.
 
 ## 🎮 Funcionalidades
 
