@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="text-6xl md:text-8xl font-bold text-center mb-4">
           CONSOLES XBOX
         </h1>
-        
+
         {/* CTA Button */}
         <div className="text-center mb-16">
           <Link
@@ -48,9 +48,7 @@ const Hero = () => {
               className="mx-auto max-w-[400px] w-full h-[300px] object-contain"
             />
             <h2 className="text-3xl font-bold">XBOX SERIES S</h2>
-            <p className="text-xl text-gray-300">
-              O melhor valor em jogos.
-            </p>
+            <p className="text-xl text-gray-300">O melhor valor em jogos.</p>
             <Link
               to="/consoles/series-s"
               className="inline-block text-xbox-green hover:underline"

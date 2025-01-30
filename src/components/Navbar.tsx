@@ -12,11 +12,9 @@ const navItems = [
   { name: "Game Pass", href: "/game-pass" },
   { name: "Jogos", href: "/games" },
   { name: "Dispositivos", href: "/devices" },
-  { name: "Jogar", href: "/play" },
+  { name: "Jogar", href: "https://www.xbox.com/pt-br/play" },
   { name: "Comunidade", href: "/community" },
   { name: "Suporte", href: "/support" },
-  { name: "Meu Xbox", href: "/my-xbox" },
-  { name: "Mais", href: "/more" },
 ];
 
 const Navbar = () => {
@@ -30,7 +28,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-8">
             <Link to="/" className="flex items-center space-x-4">
               <img
-                src="/lovable-uploads/7e779d2f-3cb0-4210-ac32-a373a9c028f3.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Xbox_logo_2012_cropped.svg/777px-Xbox_logo_2012_cropped.svg.png"
                 alt="Microsoft"
                 className="h-6"
               />

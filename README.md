@@ -1,69 +1,57 @@
-# Welcome to your Lovable project
+# Xbox Nav Explorer
 
-## Project info
+Uma aplicação web moderna construída com React + TypeScript que replica a experiência de navegação do site do Xbox.
 
-**URL**: https://lovable.dev/projects/fa923312-d456-40ee-8870-68545e24241c
+## 🎮 Funcionalidades
 
-## How can I edit this code?
+- Interface limpa e responsiva
+- Seção do Xbox Game Pass
+- Catálogo de jogos
+- Mostruário de dispositivos
+- Hub da comunidade
+- Central de suporte
 
-There are several ways of editing your application.
+## 🛠️ Tecnologias
 
-**Use Lovable**
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Shadcn/ui
+- React Router DOM
+- React Query
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fa923312-d456-40ee-8870-68545e24241c) and start prompting.
+## 📦 Instalação
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Clone o repositório
+git clone https://github.com/yourusername/xbox-nav-explorer.git
 
-**Use your preferred IDE**
+# Navegue para a pasta do projeto
+cd xbox-nav-explorer
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Instale as dependências
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Execute o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🚀 Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Compila para produção
+- `npm run preview` - Visualiza a compilação de produção
+- `npm run lint` - Executa o ESLint
 
-**Use GitHub Codespaces**
+## 🔧 Configuração
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+O projeto utiliza vários arquivos de configuração:
 
-## What technologies are used for this project?
+- `vite.config.ts` - Configuração do Vite
+- `tailwind.config.ts` - Configuração do Tailwind CSS
+- `tsconfig.json` - Configuração do TypeScript
 
-This project is built with .
+## 📝 Licença
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fa923312-d456-40ee-8870-68545e24241c) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Este projeto está sob a Licença MIT.
