@@ -55,7 +55,7 @@ const Hero = () => {
               O Xbox mais rápido e potente de todos os tempos.
             </p>
             <Link
-              to="/consoles/series-x"
+              to="/devices"
               className="inline-block text-xbox-green hover:underline"
             >
               SAIBA MAIS
@@ -78,7 +78,7 @@ const Hero = () => {
             </h2>
             <p className="text-xl text-gray-300">O melhor valor em jogos.</p>
             <Link
-              to="/consoles/series-s"
+              to="/devices"
               className="inline-block text-xbox-green hover:underline"
             >
               SAIBA MAIS
