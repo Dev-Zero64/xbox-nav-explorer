@@ -21,8 +21,8 @@ export default {
       colors: {
         xbox: {
           green: "#107C10",
-          black: "#0F0F0F",
-          gray: "#E6E6E6",
+          black: "#000000",
+          gray: "#6d6d6d",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

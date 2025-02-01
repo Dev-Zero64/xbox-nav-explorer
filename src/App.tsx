@@ -10,6 +10,7 @@ import Devices from "./pages/Devices";
 import Gamepass from "./pages/Gamepass";
 import Games from "./pages/Games";
 import Support from "./pages/Support";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -19,12 +20,13 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/community" element={<Community />} />
           <Route path="/devices" element={<Devices />} />
-          <Route path="game-pass" element={<Gamepass/>} />
+          <Route path="game-pass" element={<Gamepass />} />
           <Route path="/games" element={<Games />} />
           <Route path="/support" element={<Support />} />
         </Routes>

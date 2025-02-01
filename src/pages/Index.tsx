@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-xbox-black font-segoe">
+    <div className="min-h-screen bg-xbox-green font-segoe">
       <Navbar />
       <Hero />
     </div>
