@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 // Simple icon components using SVG
@@ -59,7 +59,7 @@ const SimpleNavbar = () => (
     <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
       <div className="text-white text-xl font-bold">Xbox</div>
       <div className="space-x-6">
-        {['Home', 'Games', 'Community', 'Support'].map(item => (
+        {["Home", "Games", "Community", "Support"].map((item) => (
           <button key={item} className="text-white hover:text-green-500">
             {item}
           </button>
@@ -92,37 +92,42 @@ const Community = () => {
   const communityFeatures = [
     {
       title: "Eventos e Torneios",
-      description: "Participe de competições emocionantes e eventos exclusivos organizados pela comunidade Xbox. Ganhe prêmios e reconhecimento!",
+      description:
+        "Participe de competições emocionantes e eventos exclusivos organizados pela comunidade Xbox. Ganhe prêmios e reconhecimento!",
       icon: Icons.Trophy,
     },
     {
       title: "Grupos de Jogadores",
-      description: "Encontre jogadores com interesses similares e forme equipes para suas aventuras favoritas.",
+      description:
+        "Encontre jogadores com interesses similares e forme equipes para suas aventuras favoritas.",
       icon: Icons.UserGroup,
     },
     {
       title: "Fóruns de Discussão",
-      description: "Compartilhe dicas, estratégias e participe de discussões sobre seus jogos favoritos.",
+      description:
+        "Compartilhe dicas, estratégias e participe de discussões sobre seus jogos favoritos.",
       icon: Icons.MessageSquare,
     },
     {
       title: "Calendário de Eventos",
-      description: "Fique por dentro de todos os eventos, lançamentos e transmissões ao vivo da comunidade.",
+      description:
+        "Fique por dentro de todos os eventos, lançamentos e transmissões ao vivo da comunidade.",
       icon: Icons.Calendar,
-    }
+    },
   ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-xbox-black to-green-900">
       <SimpleNavbar />
-      
+
       <div className="max-w-7xl mx-auto px-6 py-16 text-white">
         <div className="text-center space-y-6 mb-16">
           <h1 className="text-6xl md:text-8xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">
             Comunidade Xbox
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300">
-            Junte-se a milhões de jogadores, participe de eventos exclusivos e faça parte da maior comunidade gaming do Brasil.
+            Junte-se a milhões de jogadores, participe de eventos exclusivos e
+            faça parte da maior comunidade gaming do Brasil.
           </p>
           <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-colors duration-300">
             Participar Agora
@@ -141,16 +146,23 @@ const Community = () => {
         </div>
 
         <div className="mt-20 text-center">
-          <h2 className="text-4xl font-bold mb-8">Estatísticas da Comunidade</h2>
+          <h2 className="text-4xl font-bold mb-8">
+            Estatísticas da Comunidade
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
               { label: "Membros Ativos", value: "2M+" },
               { label: "Grupos", value: "50K+" },
               { label: "Eventos Mensais", value: "100+" },
-              { label: "Países", value: "20+" }
+              { label: "Países", value: "20+" },
             ].map((stat, index) => (
-              <div key={index} className="bg-black bg-opacity-50 p-6 rounded-lg">
-                <div className="text-4xl font-bold text-green-500 mb-2">{stat.value}</div>
+              <div
+                key={index}
+                className="bg-black bg-opacity-50 p-6 rounded-lg"
+              >
+                <div className="text-4xl font-bold text-green-500 mb-2">
+                  {stat.value}
+                </div>
                 <div className="text-gray-300">{stat.label}</div>
               </div>
             ))}

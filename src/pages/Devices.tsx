@@ -163,7 +163,7 @@ const Devices = () => {
                 initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
                 transition={{ duration: 1, delay: 2.2 }}
-                src="/special.jpg"
+                src="/specilbgrmv.png"
                 alt="Special Editions"
                 className="rounded-xl transform hover:scale-105 transition duration-300"
               />
